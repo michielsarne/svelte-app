@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 100%;
+    gap: 0;
+}
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+html, body {
+    height: 100%;
+}
+.text-normal-p {
+    font-weight: 400 !important;
+}
+.archivo {
+    font-family: "Archivo";
+    font-weight: 700;
+}
+.nav-item-li svg:last-child {
+    margin-left: auto;
+}
+* {
+    --primary-color: #2af065;
+    --secondary-color: #ffff;
+    --grey-color: #f7f7f7;
+    --black-color: black;
+}
