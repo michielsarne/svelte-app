@@ -11,7 +11,6 @@
 
     export let navClass = "-translate-x-36";
     export let size = '2rem';
-    export let color = '#2af065';
     export let buttonToggle = false;
     export let buttonClass = 'scale-0'
     export let chevronClass = '';

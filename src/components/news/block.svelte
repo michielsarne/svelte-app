@@ -4,10 +4,6 @@
     export let title;
     export let shortText;
     export let img;
-
-
-    export let color = '#ffff';
-    export let size = '18rem'
     
     export let itemClass = 'scale-100'
     function mouseEnter() {
